@@ -7,8 +7,30 @@ interface Props {
 ---
 <label>{etiqueta}</label>
 <select>
-    <option> Cali</option>
-    <option> Barranquilla</option>
-    <option> Medellin</option>
-    <option> Pereira</option>
+    <option id="cali"> Cali</option>
+    <option id="barranquilla">Barranquilla</option>
+    <option id="medellin"> Medellin</option>
+    <option id="pereira"> Pereira</option>
 </select>
+<style>
+      /*estilo de identificador*/
+      /*solo aplica a etiquetas*/
+      /*que tengas el atributo id*/
+      /*con el mismo nombre de id*/
+      /*Nota: solo debe haber un id igual*/
+      /*EN TODA LA PAGINA*/
+      
+      #barranquilla{ 
+        color:rgb(7, 208, 148)  
+        }
+     #cali{ 
+        color:rgb(44, 7, 208)  
+        }
+    #medellin{ 
+        color:rgb(208, 67, 7)  
+        }
+    #Pereira{ 
+        color:rgb(169, 24, 111)  
+        }
+
+</style>

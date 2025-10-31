@@ -13,21 +13,62 @@ interface Props {
 
 <label>{etiqueta}</label>
 <div>
-    <input 
+    <div id="cedula">
+         <input 
             type="radio"
             name="rbg"
             id="radio1"
-        />CC
-    <input 
+         />
+         <strong>CC</strong>
+    </div>
+
+    <div>
+        <div id="identidad">
+        <input 
             type="radio"
              name="rbg"
             id="radio2"
-        />TI
-    <input
+        />
+        <strong>TI</strong>
+    </div> 
+
+    <div>
+        <div id="extrangeria">
+        <input
         
             type="radio"
              name="rbg"
             id="radio3"             
-        />CE
+        />
+        <strong>CE</strong>
+    </div>
+<style> 
+    #cedula{
     
-</div>
+        background-color: rgb(76, 203, 30);
+        /*display:
+        determina como una etiqueta 
+        se comporta en cuanto a:display:
+        Largo, ancho, ubicacion;*/
+        display: inline;
+    }
+
+</style>
+
+<style> 
+    #identidad{
+    
+        background-color: rgb(30, 203, 122);
+        display: inline;
+    }
+
+</style>
+
+<style> 
+    #extrangeria{
+    
+        background-color: rgb(69, 140, 43);
+        display: inline;
+    }
+
+</style>

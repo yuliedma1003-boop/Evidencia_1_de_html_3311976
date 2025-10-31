@@ -5,4 +5,19 @@ interface Props {
     }
     const { etiqueta } =Astro.props;
 ---
-<button></button>
+<button class="boton-envio">
+    {etiqueta}
+</button>
+<style>
+    /*estilos de clase*/
+    /*se aplican a los elementos */
+    /* que tengan el atributo class*/
+    /*con el mismo nombre de clase*/
+    .boton-envio{
+        background-color: rgb(37, 36, 36);
+        color:aliceblue;
+        width:100px;
+        height:40px;
+        border-top-right-radius: 10px;
+    }
+</style>
