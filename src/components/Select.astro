@@ -1,0 +1,14 @@
+---
+interface Props {
+     etiqueta:string;
+      }
+
+  const etiqueta =Astro.props.etiqueta;
+---
+<label>{etiqueta}</label>
+<select>
+    <option> Cali</option>
+    <option> Barranquilla</option>
+    <option> Medellin</option>
+    <option> Pereira</option>
+</select>
